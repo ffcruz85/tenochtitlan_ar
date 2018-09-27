@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Zoo_2" size="0.100000 0.093925" />
+    <ImageTarget name="Montezuma_Palace_2" size="0.100000 0.053731" />
+    <ImageTarget name="Markets_2" size="0.100000 0.175424" />
+    <ImageTarget name="Lake_Texcoco_2" size="0.100000 0.069395" />
+    <ImageTarget name="Houses_2" size="0.100000 0.039881" />
+    <ImageTarget name="Great_Temple_2" size="0.100000 0.071292" />
+    <ImageTarget name="Dike-2" size="0.100000 0.047255" />
+    <ImageTarget name="Chinampas" size="0.100000 0.088449" />
+    <ImageTarget name="Ball_Courts_2" size="0.100000 0.088085" />
+    <ImageTarget name="Aqueduct-2" size="0.100000 0.077204" />
+    <ImageTarget name="OldPaper" size="0.500000 0.656288" />
+    <ImageTarget name="caption" size="0.100000 0.032549" />
+    <ImageTarget name="tenochtitlan" size="0.100000 0.084118" />
+  </Tracking>
+</QCARConfig>

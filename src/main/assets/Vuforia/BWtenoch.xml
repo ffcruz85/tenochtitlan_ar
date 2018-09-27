@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="map" size="1.000000 0.991535" />
+    <ImageTarget name="zoo" size="0.050000 0.045819" />
+    <ImageTarget name="rivera" size="0.550000 0.160983" />
+    <ImageTarget name="market" size="0.110000 0.104336" />
+    <ImageTarget name="lake" size="0.160000 0.130000" />
+    <ImageTarget name="aqueduct" size="0.090000 0.079677" />
+    <ImageTarget name="dike" size="0.100000 0.087441" />
+    <ImageTarget name="great_temple" size="0.050000 0.042293" />
+  </Tracking>
+</QCARConfig>
