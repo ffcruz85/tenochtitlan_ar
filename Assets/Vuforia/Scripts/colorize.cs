@@ -8,6 +8,8 @@ using System.Collections;
 public class colorize : MonoBehaviour {
     public GameObject ColorizedMap;
     public GameObject Rivera;
+    public float speed = 12f;
+
     // Use this for initialization
     void Start () {
         ColorizedMap.SetActive(false);
@@ -16,7 +18,10 @@ public class colorize : MonoBehaviour {
 
     // Update is called once per frame
     
-       
+       void Update ()
+    {
+        transform.Rotate(Vector3.up, speed * Time.deltaTime);
+    }
 
 
         private void OnMouseDown()
