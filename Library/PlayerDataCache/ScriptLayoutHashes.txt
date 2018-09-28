@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-D:/Dropbox (Personal)/Academic/DigHum/com.diy.tenochfinal.apk
+D:/Dropbox (Personal)/Academic/DigHum/AR/tenochtitlan_ar/com.diyhistory.tenoch.apk
 SceneListBegin?
 Assets/Scenes/SampleScene.unity
 SceneListEnd?
