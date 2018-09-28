@@ -216,7 +216,7 @@ Transform:
   m_LocalScale: {x: 0.99, y: 0.99, z: 2}
   m_Children: []
   m_Father: {fileID: 807366355}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 90, y: 360, z: 0}
 --- !u!64 &86937749
 MeshCollider:
@@ -345,17 +345,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Aqueducts were an important part of the infrastructure for the 200,000
-    population in the Aztec Capital of Tenochtitlan. The water in Lake Texcoco was
-    saltier than even sea water due to the fact that it was the meeting place of 5
-    salty rivers and the place where evaporation sets in. 1 Knowing this, the Aztecs
-    were forced to find a way to provide water to the people of the city. The first
-    aqueduct was built in 1419, but was quickly destroyed by floods.1 After a great
-    flood in 1449, the officials of the city built a dyke to protect from floods and
-    more aqueducts along with it. These aqueducts carried water from springs in the
-    mountains all the way down to the city.2 In times of drought, the aqueducts were
-    critical in the survival of the people. Like many other aspects of the city, the
-    aqueducts show the great engineering ability of the ancient civilization.\r\n"
+  m_Text: The Aztecs were very proficient hydraulic engineers. Lake Texcoco, which
+    surrounds Tenochtitlan, had brackish water that was not suitable for drinking.
+    To supply potable water to the population of the city, some 200,000 people, the
+    Aztecs built a large aqueduct which brought spring water over the lake and into
+    the city.
 --- !u!222 &203829283
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -652,126 +646,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 415923656}
   m_Mesh: {fileID: 4300002, guid: fc8a985056b3986448820ec7a545a642, type: 3}
---- !u!1 &441137761
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: fc8a985056b3986448820ec7a545a642, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 441137762}
-  - component: {fileID: 441137766}
-  - component: {fileID: 441137765}
-  - component: {fileID: 441137764}
-  - component: {fileID: 441137763}
-  m_Layer: 0
-  m_Name: group_0_15277357
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &441137762
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 441137761}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1397299347}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &441137763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 441137761}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 3
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Chinampas of Tenochtitlan
---- !u!222 &441137764
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 441137761}
---- !u!23 &441137765
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: fc8a985056b3986448820ec7a545a642,
-    type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 441137761}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 2100000, guid: fc8a985056b3986448820ec7a545a642, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &441137766
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: fc8a985056b3986448820ec7a545a642,
-    type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 441137761}
-  m_Mesh: {fileID: 4300000, guid: fc8a985056b3986448820ec7a545a642, type: 3}
 --- !u!1 &444668023
 GameObject:
   m_ObjectHideFlags: 0
@@ -1068,7 +942,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
@@ -1174,15 +1048,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'The Great Temple was a significant part of a sacred area, Sacred Precinct,
-    of the ancient city of Tenochtitlan located in the city center. The temple was
-    first built under Itzcoatl during the years of 1427-1440. It was the continued
-    to be improvised and improved by Motecuhzoma and Ahuitzotl. During its peak, the
-    temple measured 1,200 feet on each side and stood 197 feet high. ThisThe temple
-    itself was the main religious building of the capitol city and it had two shrines
-    on the top. One for Huitzilopochtli and one for Tlaloc, both gods worshiped by
-    the Aztecs. Many, many rituals were done at the temple and not to mention human
-    sacrifices were also being performed in order to appease the gods. '
+  m_Text: "The great temple loomed large over the city\u2019s central sacred district.
+    Dedicated to Huitzilopochtli and Tlaloc, it measured 100 by 80 meters at its base.
+    The temple was destroyed by the Spanish in the 16th century, but rediscovered
+    and excavated in the 20th century. It is located just northeast of the Zocalo,
+    the city\u2019s central plaza. "
 --- !u!222 &592034887
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1249,7 +1119,7 @@ RectTransform:
   m_LocalScale: {x: 0.07500001, y: 0.07500002, z: 0.07500001}
   m_Children: []
   m_Father: {fileID: 807366355}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1288,9 +1158,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Welcome to virtual Tenochtitlan! You can tap on any of the virtual elements
+  m_Text: 'Welcome to virtual Tenochtitlan! You can tap on any of the virtual elements
     to learn more about that place in the city. The floating cube you see to the right
-    of the map shows\n allows to see a different, colorized version of the map. "
+    of the map shows a part of the Codex Mendoza depicting the symbol of the city
+    of Tenochtitlan: an eagle sitting on a cactus. You can tap on the cube to see
+    more elements in this augmented reality scene.'
 --- !u!222 &640969065
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1619,7 +1491,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
@@ -1723,10 +1595,13 @@ GameObject:
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 789305767}
+  - component: {fileID: 789305772}
   - component: {fileID: 789305770}
   - component: {fileID: 789305769}
   - component: {fileID: 789305768}
+  - component: {fileID: 789305771}
+  - component: {fileID: 789305767}
+  - component: {fileID: 789305773}
   m_Layer: 0
   m_Name: Rivera
   m_TagString: Untagged
@@ -1734,19 +1609,44 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &789305767
-Transform:
+--- !u!114 &789305767
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 789305766}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: -1}
-  m_LocalPosition: {x: 0.051, y: 0.514, z: 0.559}
-  m_LocalScale: {x: 2, y: 1, z: 5}
-  m_Children: []
-  m_Father: {fileID: 807366355}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: This is a large mural by Diego Rivera depicting an imaginary scene of a
+    precolumbian market. The mural is inside Mexico's national palace, in Mexico City.
+    The Mexican capital was built on top of Tenochtitlan, and its Zocalo (central
+    plaza) was built in the same place as the great temple. In fact, the ruins of
+    the great temple were later discovered right next door to the national palace
+    where this mural is located.
 --- !u!64 &789305768
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1803,6 +1703,46 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 789305766}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!222 &789305771
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 789305766}
+--- !u!224 &789305772
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 789305766}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: -1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.559}
+  m_LocalScale: {x: 2, y: 1, z: 5}
+  m_Children: []
+  m_Father: {fileID: 807366355}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.051, y: 0.514}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &789305773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 789305766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817b0a1c55ec180429328627f188e61d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CanvasText: {fileID: 444668023}
+  TitleText: {fileID: 1246408898}
+  StoryText: {fileID: 1739833913}
+  ItemText: {fileID: 789305766}
+  ItemTitle: {fileID: 1091786663}
 --- !u!1 &807366347
 GameObject:
   m_ObjectHideFlags: 0
@@ -1964,8 +1904,7 @@ RectTransform:
   - {fileID: 1379978562}
   - {fileID: 1285738431}
   - {fileID: 203829281}
-  - {fileID: 1397299347}
-  - {fileID: 789305767}
+  - {fileID: 789305772}
   - {fileID: 1298811897}
   - {fileID: 86937748}
   - {fileID: 640969063}
@@ -2197,6 +2136,80 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &1091786663
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1091786666}
+  - component: {fileID: 1091786665}
+  - component: {fileID: 1091786664}
+  m_Layer: 0
+  m_Name: RiveraMural
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1091786664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1091786663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: La Gran Tenochtitlan
+--- !u!222 &1091786665
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1091786663}
+--- !u!224 &1091786666
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1091786663}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1.1396315}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -2.067361, y: 0.73076284}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1103785830
 GameObject:
   m_ObjectHideFlags: 0
@@ -2236,7 +2249,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
@@ -2342,12 +2355,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Surrounding the Tenochtitlan, Lake Texcoco consisted of many freshwater
-    lake systems. To create the city of Tenochtitlan, the Aztecs dug up through the
-    swampy fresh lakes and placed the mud and some lake material on top of itself
-    to create islands, canals, and drained fields called chinampas. The lake was a
-    lifeline to the city. Now drained today,because of massive flooding, Mexico City
-    now stands where the great city of Tenochtitlan once stood tall.
+  m_Text: Tenochtitlan was an island in the middle of a large, shallow, and brackish
+    lake. The island, which was enlarged by the Aztecs, was connected to the shores
+    of the lake by several causeways that led to the surrounding city-states. The
+    lake was drained over the years, as Tenochtitlan became Mexico City. Behind this
+    map, you can see a mural by Diego Rivera that portrays the valley of Mexico, with
+    Lake Texcoco and the city.
 --- !u!222 &1144341945
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2795,19 +2808,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "The Spanish were astounded in 1519 when they discovered the floating city
-    of Tenochtitlan. They questioned how the 200,000 people of the city were provided
-    with food. The Aztecs had a simple answer: Chinampas. Located on the outskirts
-    of the lake, Chinampas are basically \u201Cfloating gardens\u201D and allowed
-    the Aztecs to turn the marshy wetlands of Lake Texcoco into useful farmland 1.
-    Each garden was approximately 30 meters by 2.5 meters. Workers weaved together
-    sticks to form the base, then took mud from the bottom of the lake and placed
-    it on top making the soil three feet deep on each.2 Each plot was built parallel
-    to the other, forming canals in between. Two willow trees were planted on opposite
-    ends of the plot in order to anchor the garden. After constructed, the people
-    were free to plant crops such as corn, tomatoes, beans, squash, peppers, and even
-    flowers on the Chinampas.1 The ingenuity of the ancient civilization was astounding
-    and the Chinampas are a prime example of that."
+  m_Text: "The city zoo was one of the many amenities surrounding the royal palace.
+    It was accompanied by a botanical garden and even two aquariums, according to
+    a letter sent to Europe by Hern\xE1n Cort\xE9s. "
 --- !u!222 &1285738433
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2842,80 +2845,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 15, y: 15, z: 35}
   m_Center: {x: -0.00000013819269, y: 1.1592443, z: 15}
---- !u!1 &1286371227
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100002, guid: fc8a985056b3986448820ec7a545a642, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1286371228}
-  - component: {fileID: 1286371230}
-  - component: {fileID: 1286371229}
-  m_Layer: 0
-  m_Name: group_0_4634441
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1286371228
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400002, guid: fc8a985056b3986448820ec7a545a642, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1286371227}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1397299347}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1286371229
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300002, guid: fc8a985056b3986448820ec7a545a642,
-    type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1286371227}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 2100002, guid: fc8a985056b3986448820ec7a545a642, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &1286371230
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300002, guid: fc8a985056b3986448820ec7a545a642,
-    type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1286371227}
-  m_Mesh: {fileID: 4300002, guid: fc8a985056b3986448820ec7a545a642, type: 3}
 --- !u!1 &1293679334
 GameObject:
   m_ObjectHideFlags: 0
@@ -2955,7 +2884,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
@@ -3020,7 +2949,7 @@ Transform:
   m_LocalScale: {x: 0.20000006, y: 0.2, z: 0.20000006}
   m_Children: []
   m_Father: {fileID: 807366355}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1298811898
 MonoBehaviour:
@@ -3129,7 +3058,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
@@ -3235,16 +3164,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Aztec culture were way ahead of their time in terms of protection and ability
-    to provide for their people. One of the ways the Aztecs offered protection to
-    the people of Tenochtitlan was through the Dike. A dike is basically a build up
-    or wall of something to protect from flooding. On the bottom part of the lake,
-    the Tezcocan king, Netzahuacoyotl, built a dyke or dam to protect their capital
-    city from floods and save their drinking water.1 The supply for water was limited
-    in the city and required aqueducts. Those aqueducts and infrastructure could be
-    damaged by floods, so the dike helped defend from them during the rainy season.1
-    The dyke seperated the fresh water of Lake Mexico from the The dyke is just another
-    glimpse of the ingenuity and sophistication of the Ancient Civilization.
+  m_Text: This dike was another impressive feat of engineering to control the waters
+    of Lake Texcoco and help make Tenochtitlan habitable. It helped keep salty and
+    brackish water restricted to one side of the lake, and away from the city itself.
+    While the map shows a wooden structure, the actual dike was most likely an earthen
+    dam.
 --- !u!222 &1379978564
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3273,125 +3197,6 @@ BoxCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1379978561}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 15, y: 15, z: 35}
-  m_Center: {x: -0.00000013819269, y: 1.1592443, z: 15}
---- !u!1 &1397299346
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100004, guid: fc8a985056b3986448820ec7a545a642, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1397299347}
-  - component: {fileID: 1397299351}
-  - component: {fileID: 1397299350}
-  - component: {fileID: 1397299349}
-  - component: {fileID: 1397299348}
-  m_Layer: 0
-  m_Name: mkr_ballcourt
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1397299347
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1397299346}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: -0.096}
-  m_LocalScale: {x: 0.005, y: 0.005, z: 0.005}
-  m_Children:
-  - {fileID: 1286371228}
-  - {fileID: 441137762}
-  m_Father: {fileID: 807366355}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.342, y: 0.0085}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1397299348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1397299346}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Ball courts were used to play the famous Mesoamerican Ballgame, and they
-    were generally constructed according to the traditional I-shape. The ballcourt
-    was called tlachco, and the game played was tlachtli or ullamaliztli. The tlachtli
-    was part of an overall early Mesoamerican tradition that is still played today
-    in some parts of Mexico. For the Aztecs, the ballgame was the main sport that
-    embodied recreation and religious ritual. Ballcourts were associated to the myth
-    of Huitzilopochtli at Coatepec, where he fought Coyolxauhqui (Moon goddess) and
-    the Centzohuitznahua (the 400 stars), decapitated them, and ate their hearts at
-    the center of the ballcourt called itzompan (place of the skull). The myth of
-    Coatepec reflects the daily cosmic fight between the Sun (light and life) and
-    the nocturnal celestial bodies (death and darkness) and the permanent victory
-    of the Sun that allows the continuity of Life in the Universe. The movement of
-    the ball was a metaphor for the cult drama of the moving sun across the sky, and
-    was intended to reflect the celestial events on earth.
---- !u!222 &1397299349
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1397299346}
---- !u!114 &1397299350
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1397299346}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 817b0a1c55ec180429328627f188e61d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CanvasText: {fileID: 444668023}
-  TitleText: {fileID: 1246408898}
-  StoryText: {fileID: 1739833913}
-  ItemText: {fileID: 0}
-  ItemTitle: {fileID: 0}
---- !u!65 &1397299351
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1397299346}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
@@ -3681,7 +3486,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
@@ -4072,7 +3877,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: "The markets were very important to the life of the city. Aside from foodstuffs,
+    one could find products from the far regions of the Aztec\u2019s vast empire.
+    It was also an important meeting place where people socialized and shared the
+    news. If you click on the floating cube to the right of the map, you will see
+    a large painting appear. It is a mural depicting a scene of the market as imagined
+    by Diego Rivera."
 --- !u!222 &1791473511
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4692,7 +4502,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
