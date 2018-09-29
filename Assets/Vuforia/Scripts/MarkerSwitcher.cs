@@ -13,7 +13,7 @@ public class MarkerSwitcher : MonoBehaviour {
     public Text StoryText = null;
     public GameObject ItemText = null;
     public GameObject ItemTitle = null;
-    //public Text MarkerText = null;
+    //public float speed = 12f;
 
 
     // Use this for initialization
@@ -24,15 +24,16 @@ public class MarkerSwitcher : MonoBehaviour {
     }
 
     //// Update is called once per frame
-    //void Update () {
-
+    //void Update()
+    //{
+    //    transform.Rotate(Vector3.up, speed * Time.deltaTime);
     //}
 
 
 
     private void OnMouseDown()
     {
-        if (CanvasText != null)
+        if (CanvasText != null && CanvasText.activeSelf==false)
         { 
                 CanvasText.SetActive(true); //
                 TitleText.text = ItemTitle.GetComponent<Text>().text;
