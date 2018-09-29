@@ -19,7 +19,7 @@ public class MarkerSwitcher : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        CanvasText.SetActive(false);  
+        //CanvasText.SetActive(false);  
 
     }
 
@@ -33,13 +33,14 @@ public class MarkerSwitcher : MonoBehaviour {
     private void OnMouseDown()
     {
         if (CanvasText != null)
-        {          
-           CanvasText.SetActive(true); //           
-        }
-        int title = GetInstanceID();
-        TitleText.text = ItemTitle.GetComponent<Text>().text;
-        StoryText.text = ItemText.GetComponent<Text>().text;
+        { 
+                CanvasText.SetActive(true); //
+                TitleText.text = ItemTitle.GetComponent<Text>().text;
+                StoryText.text = ItemText.GetComponent<Text>().text;         
 
+        }
+        //int title = GetInstanceID();
+        
        
 
     }

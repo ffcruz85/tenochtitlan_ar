@@ -15,4 +15,14 @@ public class HideStart : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    private void OnMouseDown()
+    {
+        MainCanvas.SetActive(false);
+        //int title = GetInstanceID();
+
+
+
+    }
+
 }
